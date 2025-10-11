@@ -49,56 +49,29 @@ const ShowcaseSection = () => {
       <div className="w-full">
         <div className="showcaselayout">
           {/* left */}
-          <div className="first-project-wrapper" ref={project1Ref} data-aos="fade-up">
+          <div className="first-project-wrapper" ref={project1Ref}>
             <div className="image-wrapper">
-              <img src="/images/project1.jpeg" alt="SensAI - AI Career Coach" />
+              <a
+                href="https://sensai-lime.vercel.app/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="cursor-pointer"
+              >
+                <img
+                  src="/images/project1.jpeg"
+                  alt="SensAI - AI Career Coach"
+                />
+              </a>
             </div>
             <div className="text-content">
               <h2>🚀 SensAI — My First AI-Powered Project (AI Career Coach)</h2>
               <p className="text-white-50 md:text-xl">
-                SensAI is an AI-powered career coach built with{" "}
-                <strong>
-                  Next.js, TailwindCSS, Shadcn UI, Prisma ORM, and Gemini API
-                </strong>
-                . It delivers{" "}
-                <strong>AI-driven, real-time career insights</strong> across
-                resumes, dashboards, quizzes, and cover letters.
+                SensAI is an AI-powered career coach built with Next.js,
+                TailwindCSS, Shadcn UI, Prisma ORM, Clerk, and Gemini API. It
+                provides AI-driven, real-time career insights through
+                dashboards, resume builder, quizzes, and cover letter
+                generation.
               </p>
-
-              <ul className="list-disc list-inside mt-3 text-white-70 md:text-lg">
-                <li>
-                  AI-powered industry insights dashboard updated weekly via
-                  Inngest
-                </li>
-                <li>
-                  Resume Builder with real-time markdown preview + “Improve with
-                  AI” feature
-                </li>
-                <li>Interview Prep with AI-generated quizzes and feedback</li>
-                <li>
-                  Cover Letter Generator — role and company-specific with Gemini
-                  API
-                </li>
-              </ul>
-
-              <div className="flex flex-wrap gap-4 mt-4">
-                <a
-                  href="https://lnkd.in/dNe5cga2"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="bg-blue-600 text-white px-5 py-2 rounded-lg hover:bg-blue-700 transition-colors"
-                >
-                  🌐 Live Demo
-                </a>
-                <a
-                  href="https://lnkd.in/dX5kCdKy"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="bg-gray-800 text-white px-5 py-2 rounded-lg hover:bg-gray-700 transition-colors"
-                >
-                  💻 GitHub Repo
-                </a>
-              </div>
             </div>
           </div>
 
