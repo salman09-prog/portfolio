@@ -51,7 +51,7 @@ const ShowcaseSection = () => {
           {/* left */}
           <div className="first-project-wrapper" ref={project1Ref} data-aos="fade-up">
             <div className="image-wrapper">
-              <img src="/images/project1.png" alt="SensAI - AI Career Coach" />
+              <img src="/images/project1.jpeg" alt="SensAI - AI Career Coach" />
             </div>
             <div className="text-content">
               <h2>🚀 SensAI — My First AI-Powered Project (AI Career Coach)</h2>
