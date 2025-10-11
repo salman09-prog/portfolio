@@ -38,7 +38,7 @@ const ExperienceSection = () => {
       },
     });
 
-        gsap.utils.toArray(".expText").forEach((text) => {
+    gsap.utils.toArray(".expText").forEach((text) => {
       gsap.from(text, {
         xPercent: 0,
         opacity: 0,
@@ -67,9 +67,28 @@ const ExperienceSection = () => {
               <div key={card.title} className="exp-card-wrapper">
                 <div className="xl:w-2/6">
                   <GlowCard card={card} index={index}>
-                    <div>
-                      <img src={card.imgPath} alt={card.title} />
-                    </div>
+                    {card.webImg ? (
+                      <a
+                        href={card.url}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="block cursor-pointer relative z-10"
+                      >
+                        <img
+                          src={card.webImg}
+                          alt={card.title}
+                          className="w-full h-full object-cover rounded-xl"
+                        />
+                      </a>
+                    ) : (
+                      <div>
+                        <img
+                          src={card.imgPath}
+                          alt={card.title}
+                          className="w-full h-full object-cover rounded-xl"
+                        />
+                      </div>
+                    )}
                   </GlowCard>
                 </div>
 

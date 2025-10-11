@@ -29,7 +29,7 @@ const words = [
     { text: "Concepts", imgPath: "/images/concepts.svg" },
     { text: "Designs", imgPath: "/images/designs.svg" },
     { text: "Code", imgPath: "/images/code.svg" },
-      { text: "ideas", imgPath: "/images/ideas.svg" },
+    { text: "ideas", imgPath: "/images/ideas.svg" },
     { text: "Concepts", imgPath: "/images/concepts.svg" },
     { text: "Designs", imgPath: "/images/designs.svg" },
     { text: "Code", imgPath: "/images/code.svg" },
@@ -154,40 +154,49 @@ const techStackIcons = [
 
 const expCards = [
     {
-        review: "Salman brought creativity and technical expertise to the team, significantly improving our frontend performance. His work has been invaluable in delivering faster experiences.",
+        review: "Salman brought creativity and technical expertise to the team, significantly improving our frontend & backend performance. His work has been invaluable in delivering faster experiences.",
         imgPath: "/images/exp1.png",
-        logoPath: "/images/logo1.png",
-        title: "Frontend Developer",
-        date: "January 2023 - Present",
+        logoPath: "/images/logos/rigelLogo.png",
+        title: "Full Stack Web Developer Intern",
+        date: "August 2025 - Present",
         responsibilities: [
-            "Developed and maintained user-facing features for the Hostinger website.",
-            "Collaborated closely with UI/UX designers to ensure seamless user experiences.",
-            "Optimized web applications for maximum speed and scalability.",
+            "Work on assigned MERN stack web development projects.",
+            "Participate in code reviews, debugging, and documentation.",
+            "Ensure responsiveness, security, and performance optimization.",
         ],
     },
     {
-        review: "Salman’s contributions to Docker's web applications have been outstanding. He approaches challenges with a problem-solving mindset.",
+        // review: "Salman’s contributions to Docker's web applications have been outstanding. He approaches challenges with a problem-solving mindset.",
         imgPath: "/images/exp2.png",
-        logoPath: "/images/logo2.png",
-        title: "Full Stack Developer",
-        date: "June 2020 - December 2023",
+        logoPath: "/images/logos/rigelLogo.png",
+        title: "Rigel Edutech Website (Internship Project)",
+        date: "August 2025 - Present",
         responsibilities: [
-            "Led the development of Docker's web applications, focusing on scalability.",
-            "Worked with backend engineers to integrate APIs seamlessly with the frontend.",
-            "Contributed to open-source projects that were used with the Docker ecosystem.",
+            "Developed the front-end of the company’s portfolio/landing site using React / Next.js / TailwindCSS",
+            "Collaborated with design and content teams to convert UI/UX designs into responsive pages",
+            "Integrated dynamic sections like courses overview, about, contact forms, blog previews, etc.",
+            "Optimized performance, SEO, and accessibility across devices"
         ],
+        webImg: "/images/rigel-edutech-expImg.png",
+        url: "https://rigel-edutech-website-v1.vercel.app/"
     },
     {
-        review: "Salman’s work on Appwrite’s mobile app brought a high level of quality and efficiency. He delivered solutions that enhanced our mobile experience & meet our product goals.",
+        // review: "Salman’s work on Appwrite’s mobile app brought a high level of quality and efficiency. He delivered solutions that enhanced our mobile experience & meet our product goals.",
         imgPath: "/images/exp3.png",
-        logoPath: "/images/logo3.png",
-        title: "React Native Developer",
-        date: "March 2019 - May 2020",
+        logoPath: "/images/logos/job-hunt-logo.png",
+        title: "Full-Stack Job Portal (MERN Stack)",
+        date: "May 2025 – June 2025",
         responsibilities: [
-            "Built cross-platform mobile apps using React Native, integrating with Appwrite's backend services.",
-            "Improved app performance and user experience through code optimization and testing.",
-            "Coordinated with the product team to implement features based on feedback.",
+            "Developed a complete Job Portal web app using React, Node.js, Express, and MongoDB.",
+            "Implemented secure user and admin authentication using JWT and cookies.",
+            "Built RESTful APIs for job posting, application management, and user data handling.",
+            "Created responsive UI with React + TailwindCSS and managed global state using Redux Toolkit.",
+            "Developed role-based dashboards — users can browse and apply for jobs, admins can post and manage listings.",
+            "Deployed full-stack app on Render with end-to-end integration of frontend and backend.",
+            "Handled real-world user flows, API debugging, and session management for production-ready reliability."
         ],
+        webImg: "/images/job-hunt-expImg.png",
+        url: "https://jobportal-1-s7qk.onrender.com/"
     },
 ];
 
