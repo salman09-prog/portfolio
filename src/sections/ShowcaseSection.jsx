@@ -79,22 +79,39 @@ const ShowcaseSection = () => {
           <div className="project-list-wrapper overflow-hidden">
             <div className="project" ref={project2Ref}>
               <div className="image-wrapper bg-[#ffefdb]">
-                <img
-                  src="/images/project2.png"
-                  alt="Library Management Platform"
-                />
+                <a
+                  href="https://chatify-1-rk2d.onrender.com/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="cursor-pointer"
+                >
+                  <img
+                    src="/images/project2.png"
+                    alt="Library Management Platform"
+                  />
+                </a>
               </div>
-              <h2>Library Management Platform</h2>
+              <h2>Chatify - a real-time chat application</h2>
             </div>
 
             <div className="project" ref={project3Ref}>
               <div className="image-wrapper bg-[#ffe7eb]">
-                <img
-                  src="/images/project3.png"
-                  alt="Library Management Platform"
-                />
+                <a
+                  href="https://stripe-course-ten.vercel.app/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="cursor-pointer"
+                >
+                  <img
+                    src="/images/project3.png"
+                    alt="Library Management Platform"
+                  />
+                </a>
               </div>
-              <h2>YC Directory - A Startup Showcase App</h2>
+              <h2>
+                Stripe-Powered Course Platform with one-time payments,
+                subscriptions, and a full billing system
+              </h2>
             </div>
           </div>
         </div>
