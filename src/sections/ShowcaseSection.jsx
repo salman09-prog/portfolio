@@ -76,6 +76,23 @@ const ShowcaseSection = () => {
           </div>
 
           {/* right  */}
+          <div className="project" ref={project3Ref}>
+            <div className="image-wrapper bg-[#ffe7eb]">
+              <a
+                href="https://habit-tracker-one-smoky.vercel.app/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="cursor-pointer"
+              >
+                <img
+                  src="/images/project3.png"
+                  alt="Library Management Platform"
+                />
+              </a>
+            </div>
+            <h2>HabitTracker AI - an intelligent habit tracking application</h2>
+          </div>
+
           <div className="project-list-wrapper overflow-hidden">
             <div className="project" ref={project2Ref}>
               <div className="image-wrapper bg-[#ffefdb]">
@@ -92,25 +109,6 @@ const ShowcaseSection = () => {
                 </a>
               </div>
               <h2>Chatify - a real-time chat application</h2>
-            </div>
-
-            <div className="project" ref={project3Ref}>
-              <div className="image-wrapper bg-[#ffe7eb]">
-                <a
-                  href="https://habit-tracker-one-smoky.vercel.app/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="cursor-pointer"
-                >
-                  <img
-                    src="/images/project3.png"
-                    alt="Library Management Platform"
-                  />
-                </a>
-              </div>
-              <h2>
-                HabitTracker AI - an intelligent habit tracking application
-              </h2>
             </div>
           </div>
         </div>
