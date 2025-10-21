@@ -97,7 +97,7 @@ const ShowcaseSection = () => {
             <div className="project" ref={project3Ref}>
               <div className="image-wrapper bg-[#ffe7eb]">
                 <a
-                  href="https://stripe-course-ten.vercel.app/"
+                  href="https://habit-tracker-one-smoky.vercel.app/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="cursor-pointer"
@@ -109,8 +109,7 @@ const ShowcaseSection = () => {
                 </a>
               </div>
               <h2>
-                Stripe-Powered Course Platform with one-time payments,
-                subscriptions, and a full billing system
+                HabitTracker AI - an intelligent habit tracking application
               </h2>
             </div>
           </div>
